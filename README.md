@@ -32,7 +32,9 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 ## PROGRAM :
-'''
+```
+math.html
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -95,7 +97,6 @@ h1 {
 </html>
 
 ```
-
 view.py
 ```
 from django.shortcuts import render
@@ -124,9 +125,8 @@ def surfacearea(request):
     
     return render(request, 'mathapp/math.html', context)
 
-'''
+```
 urls.py
-
 ```
 from django.contrib import admin
 from django.urls import path
@@ -138,11 +138,13 @@ urlpatterns = [
 ]
 ```
 ## SERVER SIDE PROCESSING:
+<img width="1190" height="591" alt="Screenshot 2025-12-25 182103" src="https://github.com/user-attachments/assets/189110ca-85dd-498b-b9da-69fd6ffdf4e3" />
 
-![alt text](<../myenv/Screenshot 2025-12-25 182103.png>)
+
 
 ## HOMEPAGE:
-![alt text](<../myenv/Screenshot 2025-12-25 182211.png>)
+<img width="1854" height="868" alt="Screenshot 2025-12-25 182211" src="https://github.com/user-attachments/assets/064e4c12-d62b-4412-b3ef-d705996e0353" />
+
 
 
 
